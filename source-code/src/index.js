@@ -1,13 +1,33 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+
+import App from './App';
+import Home from './components/pages/Home';
+import Login from './components/pages/Login';
+
+const router = createBrowserRouter([
+  {
+    path: "/", // This is the relative URL path which users can bookmark and navigate to
+    element: <Home />, // This is the React Component to load when navigating to the associated path URL
+    // errorElement: <ErrorPage />, // This is a React Component to load when a URL is invalid or something goes wrong
+  },
+  {
+    path: "/login",
+    element: <Login />,
+  },
+  // More routes...
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
