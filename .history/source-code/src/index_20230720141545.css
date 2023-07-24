@@ -1,0 +1,5 @@
+/* Replace these colors with your desired Ombré colors */
+background-image: linear-gradient(to right, #012A4A, #013A63, #01497C);
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;

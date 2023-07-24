@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  background: linear-gradient(0.25turn,black,#012A4A, #013A63, #01497C,#014F86);
+
+
+}
+
+/* NavigationBar.css */
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+/* HomePage.css */
+.home-page {
+  margin-top: 20px; /* Add your desired space value here */
+  /* Add any other styles for your home page content */
+}

@@ -1,0 +1,33 @@
+/* Navbar.css */
+
+/* ... (previous styles) ... */
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 2px;
+    margin-right: 10px;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+}
+
+.user-section {
+    display: flex;
+    align-items: center;
+}
+
+.user-section span {
+    margin-right: 5px;
+}
+
+.user-section svg {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
