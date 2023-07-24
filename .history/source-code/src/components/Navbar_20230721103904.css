@@ -1,0 +1,74 @@
+/* Navbar.css */
+
+/* Navbar.css */
+
+.navbar {
+    background-color: #012A4A;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Add border line to the bottom of the navigation bar */
+    border-bottom: 8px solid bl; /* Replace #fff with your desired border color */
+}
+
+
+
+
+
+.left-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.left-nav li {
+    margin-right: 15px;
+}
+
+.left-nav li:last-child {
+    margin-right: 0;
+}
+
+.left-nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.left-nav li a:hover {
+    color: white;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+}
+
+.right-nav input[type="text"] {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.user-section {
+    display: flex;
+    align-items: center;
+}
+
+.user-section span {
+    margin-right: 5px;
+}
+
+.user-section img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+
+  /* NavigationBar.css */
