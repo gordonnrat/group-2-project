@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
 import "../Landing.css";
+import NowPlaying from "../NowPlaying"
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 function Landing() {
     return(
         <div className="landing-page">
+            <NowPlaying />
             <nav class="landing-nav">
                 <ul id="nav-logo">
                     <li>
