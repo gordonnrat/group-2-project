@@ -150,7 +150,7 @@ function Landing() {
                 </div>
 
                 <div className="support-cards">
-                    <div className="circle">
+                    <div className="circles">
 
                     </div>
                     <div className="support-cards-desc">

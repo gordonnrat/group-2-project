@@ -74,6 +74,7 @@
 .sidebar {
     width: 16vw;
     float:left;
+}
   
   .sidebar li a {
     display: block;
@@ -101,5 +102,3 @@
     font-size: 16px;
     font-weight: bold;
 }
-
-

@@ -3,9 +3,13 @@
     padding: 0;
 }
 
-body {
+.landing-page {
     background: white;
 }
+
+/* body {
+    background: white;
+} */
 
 .blue{
     color:#00B4D8;
@@ -144,7 +148,14 @@ body {
     height: 156px;
 }
 
-.card-image svg, i{
+.card-image svg{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-image i{
     position: absolute;
     left: 50%;
     top: 50%;
@@ -293,7 +304,7 @@ h1#support-header-title {
     width: 100%;
     margin: auto;
     justify-content: center;
-    margin-bottom: 250px;
+    padding-bottom: 250px;
 }
 
 .support-cards-desc {
@@ -314,7 +325,7 @@ h1#support-header-title {
     opacity: 0.8;
 }
 
-.circle {
+.circles {
     border-radius: 50%;
     width: 300px;
     height: 300px;
