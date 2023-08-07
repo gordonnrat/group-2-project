@@ -4,10 +4,8 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 function NowPlaying() {
     return(
-        <div>
-            <div className="now-playing-bar">
-                
-            </div>
+        <div className="now-playing-bar">
+            <audio controls src="#" />
         </div>
     )
 }
