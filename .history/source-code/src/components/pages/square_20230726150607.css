@@ -1,0 +1,13 @@
+.square-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Add some top margin to push the square down */
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-top: 0; /* Reset any existing margin-top for the square */
+  }
+  

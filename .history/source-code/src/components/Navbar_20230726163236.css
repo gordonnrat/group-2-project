@@ -1,0 +1,104 @@
+
+/* Navbar.css */
+
+/* Navbar.css */
+
+.navbar {
+    background-color: #012A4A;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* Add border line to the bottom of the navigation bar */
+    border-bottom: 8px solid black; /* Replace #fff with your desired border color */
+}
+
+
+
+.left-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.left-nav li {
+    margin-right: 15px;
+}
+
+.left-nav li:last-child {
+    margin-right: 0;
+}
+
+.left-nav li a {
+    text-decoration: none;
+    color:white
+
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.left-nav li a:hover {
+    color: white;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+}
+
+.right-nav input[type="text"] {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.user-section {
+    display: flex;
+    align-items: center;
+}
+
+.user-section span {
+    margin-right: 5px;
+}
+
+.user-section img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+
+
+  
+  .sidebar li a {
+    display: block;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .sidebar li {
+    margin-bottom: 25px; /* Add space between each sidebar item */
+  }
+  
+  .sidebar li a i {
+    font-size: 30px;
+    color: #00B4D8;
+    position: relative;
+    z-index: 2; /* Set z-index to place the icons in front of the border line */
+  }
+  
+  
+  .sidebar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+

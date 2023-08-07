@@ -1,0 +1,16 @@
+.square-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+    height: 100vh; /* Set the height of the container to the full viewport height */
+    position: relative; /* Add positioning to the container */
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute; /* Use absolute positioning for the square */
+    top: 0; /* Position the square at the top of its container */
+  }
+  
