@@ -1,0 +1,12 @@
+.square-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  height: 100vh; /* Set the height of the container to the full viewport height */
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
