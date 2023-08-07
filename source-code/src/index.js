@@ -9,9 +9,10 @@ import {
   Link
 } from "react-router-dom";
 
-import App from './App';
+// import App from './App';
 import Home from './components/pages/Home';
 import Login from './components/pages/Login';
+import Landing from './components/pages/Landing';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -19,6 +20,7 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/landing" element={<Landing />} />
         {/* Add more routes here */}
         <Route path="/group-2-project" element={<Link to="/" />} />
       </Routes>
