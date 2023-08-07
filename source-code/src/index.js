@@ -13,6 +13,7 @@ import {
 import Home from './components/pages/Home';
 import Login from './components/pages/Login';
 import Landing from './components/pages/Landing';
+import Artist from './components/pages/Artist';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -21,6 +22,7 @@ ReactDOM.render(
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/landing" element={<Landing />} />
+        <Route path="/artist" element={<Artist />} />
         {/* Add more routes here */}
         <Route path="/group-2-project" element={<Link to="/" />} />
       </Routes>
