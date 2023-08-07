@@ -1,0 +1,27 @@
+/* Sidebar.css */
+
+.sidebar li a {
+    display: block;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+.sidebar li {
+    margin-bottom: 25px; /* Add space between each sidebar item */
+}
+
+.sidebar li a i {
+    font-size: 30px;
+    color: #00B4D8;
+    position: relative;
+    z-index: 2; /* Set z-index to place the icons in front of the border line */
+}
+
+.sidebar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}

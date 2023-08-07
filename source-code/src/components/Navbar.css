@@ -1,3 +1,4 @@
+
 /* Navbar.css */
 
 /* Navbar.css */
@@ -8,6 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
     /* Add border line to the bottom of the navigation bar */
     border-bottom: 8px solid black; /* Replace #fff with your desired border color */
 }
@@ -32,7 +34,8 @@
 
 .left-nav li a {
     text-decoration: none;
-    color: white;
+    color:white;
+
     font-size: 16px;
     font-weight: bold;
 }
@@ -68,8 +71,9 @@
     border-radius: 50%;
 }
 
-
-
+.sidebar {
+    width: 16vw;
+    float:left;
   
   .sidebar li a {
     display: block;
@@ -97,3 +101,5 @@
     font-size: 16px;
     font-weight: bold;
 }
+
+

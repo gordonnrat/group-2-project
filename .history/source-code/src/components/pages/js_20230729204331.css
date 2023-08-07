@@ -1,0 +1,36 @@
+.top-heading {
+  position: absolute;
+  top: 5px; /* Adjust the value to move it down as much as you want */
+  left: 0;
+  font-size: 15px;
+  color: aliceblue;
+}
+
+.squares-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  height: 10vh; /* Set the height of the container to the full viewport height */
+  margin-top: 0; /* Add this line to reset the top margin */
+}
+
+.square-container {
+  margin-right: 65px; /* Add some spacing between squares (adjust as needed) */
+  position: relative; /* Make sure the container is positioned relatively for absolute positioning of its children */
+}
+
+.text {
+  position: absolute;
+  top: 100px; /* Adjust the vertical position of the text above the square */
+  left: 34%; /* Horizontally center the text */
+  font-size: 10px;
+  color: aliceblue;
+  transform: translateX(-50%); /* This will adjust the centering due to the width of the text */
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  top: 40px; /* This will position the square below the text */
+}

@@ -1,0 +1,72 @@
+/* Assuming you already have the following styles */
+.top-heading {
+  font-size: 15px;
+  color: aliceblue;
+}
+
+/* Add styles for the main container */
+.main-container {
+  display: flex;
+}
+
+/* Add styles for the side navigation */
+.side-nav {
+  flex: 1;
+  background-color: #333; /* Set your preferred background color */
+  color: #fff; /* Set your preferred text color */
+  padding: 20px;
+}
+
+.side-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.side-nav li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* Add styles for the content container */
+.content-container {
+  flex: 3;
+  padding: 20px;
+}
+
+.content-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.content-container li {
+  margin-bottom: 10px;
+}
+
+/* Add styles for the container of the squares */
+.squares-container {
+  display: flex;
+}
+
+/* Add styles for each square container */
+.square-container {
+  margin-right: 10px;
+  position: relative;
+}
+
+/* Add styles for the text above each square */
+.text {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  font-size: 15px;
+  color: aliceblue;
+  font-weight: bold;
+  transform: translateX(-50%);
+}
+
+/* Add styles for the square */
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
