@@ -210,7 +210,7 @@ h1#about-section-title {
     margin: 0 auto;
   }
   
-  .card {
+.card {
     background-color: white;
     flex: 1;
     z-index: 2;
@@ -220,43 +220,103 @@ h1#about-section-title {
     display: flex;
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;   
-  }
+}
   
-  .card img {
+.card img {
     width: 100%;
     height: 300px;
     object-fit: cover;
     border-radius: 0 0 15px 15px;
     position: relative;
-  }
+}
   
-  .card-content {
+.card-content {
     padding: 50px 65px 50px 65px;
     height: 250px;
-  }
+}
   
-  .card h2 {
+.card h2 {
     margin-top: 0;
     height: 50px;
     font-size: 22px;
     font-weight: 700;
     width: 85%;
-  }
+}
   
-  .card p {
+.card p {
     margin: 30px 0;
     font-size: 20px;
     opacity: 0.8;
-  }
+}
 
-  /* BG Triangles */
+/* BG Triangles */
 
-  .about-sexp svg{
+.about-sexp svg{
     position: absolute;
     z-index: 1;
-  }
+}
 
-  .left-triangle {
+.left-triangle {
     right: 0;
     bottom: 0;
-  }
+}
+
+/* About Supporting */
+
+#support-header {
+    position: relative;
+    margin-bottom: 200px;
+}
+
+h1#support-header-title {
+    font-size: 105px;
+    font-weight: 700;
+    background-color: #00B4D8;
+    background-clip: text;
+    background: -webkit-linear-gradient(0deg, rgba(0,180,216,1) 0%, rgba(227,147,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    bottom: 25%;
+    width: 40%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    margin: 0 auto;
+}
+  
+.about-support img{
+    width: 100%;
+}
+
+.support-cards{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 250px;
+}
+
+.support-cards-desc {
+    padding: 60px 0;
+    width: 40%;
+    margin-left: 50px;
+}
+
+.support-cards-desc h2{
+    font-size: 22px;
+    font-weight: 700;
+    width: 85%;
+    margin-bottom: 25px;
+}
+
+.support-cards-desc p{
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background-color: #00B4D8;
+}
