@@ -1,4 +1,5 @@
 import Navbar from "../Navbar";
+import "../Navbar.css";
 
 function Home() {
     return(
@@ -6,7 +7,7 @@ function Home() {
             <Navbar />
             <h1>Home</h1>
             <ul>
-                <li>gng</li>
+                
             </ul>
         </div>
     )

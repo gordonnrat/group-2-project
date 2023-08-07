@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+}
+
+.blue{
+    color:#00B4D8;
+}
+
+/* Navbar */
+
+.landing-nav {
+    /* background: black; */
+    height: 55px;
+    position: absolute;
+    display: flex;
+    width: 97%;
+    align-items: center;
+    justify-content:space-between;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.landing-nav ul{
+    list-style-type: none;
+    align-items: center;
+}
+
+.landing-nav li {
+    color: white;
+    font-size: 22px;
+    margin: 10px 0 0 0;
+    display: inline-block;
+}
+
+#nav-right li{
+    margin-left: 20px;
+}
+
+/* Logo */
+
+#nav-logo li{
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+/* Hero Image */
+
+.hero-title{
+    color: white;
+    position: absolute;
+    right: 17vw;
+    width: 30vw;
+    top: 20vh;
+    font-size: 42px;
+}
+
+.hero-title h1{
+    color: white;
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+.hero-img{
+    height: 650px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Buttons */
+
+.get-started {
+    margin-top: 1vh;
+    color: white;
+    background-color: #00B4D8;
+    font-size: 16px;
+    padding: 12px 75px;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+}
+
+.login-button {
+    margin-top: 1vh;
+    color: white;
+    background-color: transparent;
+    border: .5px solid white;
+    font-size: 16px;
+    padding: 12px 75px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.login-button:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    border: #00B4D8 .5px solid;
+    color: #00B4D8;
+}
+
+.button-hover:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+/* About Section */
+
+#about-section-title {
+    font-size: 48px;
+}
+
+.about {
+    margin-top: 100px;
+}
+
+.about h1 {
+    text-align: center;
+}
+
+.about-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.about-card {
+    width: 325px;
+    margin: 50px;
+}
+
+.card-image {
+    position: relative;
+    height: 20vh;    align-items: center;
+    height: 156px;
+}
+
+.card-image svg, i{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-icon {
+    color: #ffffff;
+    
+}
+
+.about-card-desc{
+    text-align: center;
+}
+
+.about-card-desc h2{
+    margin: 25px auto 20px auto;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.about-card-desc p{
+    margin: 30px 0 20px 0;
+    font-size: 16px;
+}
+
+/* About - Sound Experience */
+
+.about-sexp {
+    position: relative;
+}
+
+.about-sexp-title {
+    width: 750px;
+    margin: auto;
+    position: relative;
+}
+
+h1#about-section-title {
+    position: relative;
+    z-index: 2;
+  }
+
+.underline {
+    width: 412px;
+    height: 18px;
+    background-color: #00B4D8;
+    position: absolute;
+    right: 8px;
+    bottom: -9px;
+    z-index: 1;
+}
+
+/* Cards */
+
+.card-sexp {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 0 auto;
+  }
+  
+.card {
+    background-color: white;
+    flex: 1;
+    z-index: 2;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 90px 25px 158px 25px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;   
+}
+  
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 0 0 15px 15px;
+    position: relative;
+}
+  
+.card-content {
+    padding: 50px 65px 50px 65px;
+    height: 250px;
+}
+  
+.card h2 {
+    margin-top: 0;
+    height: 50px;
+    font-size: 22px;
+    font-weight: 700;
+    width: 85%;
+}
+  
+.card p {
+    margin: 30px 0;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+/* BG Triangles */
+
+.about-sexp svg{
+    position: absolute;
+    z-index: 1;
+}
+
+.left-triangle {
+    right: 0;
+    bottom: 0;
+}
+
+/* About Supporting */
+
+#support-header {
+    position: relative;
+    margin-bottom: 200px;
+}
+
+h1#support-header-title {
+    font-size: 105px;
+    font-weight: 700;
+    background-color: #00B4D8;
+    background-clip: text;
+    background: -webkit-linear-gradient(0deg, rgba(0,180,216,1) 0%, rgba(227,147,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    bottom: 25%;
+    width: 40%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    margin: 0 auto;
+}
+  
+.about-support img{
+    width: 100%;
+}
+
+.support-cards{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 250px;
+}
+
+.support-cards-desc {
+    padding: 60px 0;
+    width: 40%;
+    margin-left: 50px;
+}
+
+.support-cards-desc h2{
+    font-size: 22px;
+    font-weight: 700;
+    width: 85%;
+    margin-bottom: 25px;
+}
+
+.support-cards-desc p{
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background-color: #00B4D8;
+}

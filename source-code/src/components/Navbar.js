@@ -34,7 +34,7 @@ function Navbar() {
           <input type="text" placeholder="Search" />
           <div className="user-section">
             {/* Your user-related elements can go here */}
-            <span>Username</span>
+            <span>User</span>
           </div>
         </div>
       </nav>
