@@ -17,6 +17,7 @@ function Artist() {
                         <p>_____ subscribers</p>
                         <p>_____ monthly listeners</p>
                     </div>
+                    <button type="button" className="subscribe-button">Subscribe</button>
                 </div>
 
             </div>
