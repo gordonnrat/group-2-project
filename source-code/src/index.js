@@ -14,6 +14,7 @@ import Home from './components/pages/Home';
 import Login from './components/pages/Login';
 import Landing from './components/pages/Landing';
 import Artist from './components/pages/Artist';
+import Subscription from './components/pages/Subscription';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -23,6 +24,7 @@ ReactDOM.render(
         <Route path="/login" element={<Login />} />
         <Route path="/landing" element={<Landing />} />
         <Route path="/artist" element={<Artist />} />
+        <Route path="/subscription" element={<Subscription />} />
         {/* Add more routes here */}
         <Route path="/group-2-project" element={<Link to="/" />} />
       </Routes>

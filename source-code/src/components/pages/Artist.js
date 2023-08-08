@@ -16,7 +16,7 @@ function Artist() {
                         <div className="artist-info-container">
                             <h1>Artist Name</h1>
                             <div className="artist-stats-details">
-                                <p>_____ subscribers</p>
+                                <p>  subscribers</p>
                                 <p>_____ monthly listeners</p>
                             </div>
                             <button type="button" className="subscribe-button">Subscribe</button>
