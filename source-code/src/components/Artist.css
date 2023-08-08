@@ -3,8 +3,10 @@
     background: linear-gradient(180deg, rgba(1,42,74,1) 0%, rgba(0,8,15,1) 30%);
     padding-bottom: 100px;
     color: white;
-    width: 83.75vw;
+    width: 82.5vw;
     margin-left: auto;
+    position: relative;
+    top: 58px;
 }
 
 .artist-header {
