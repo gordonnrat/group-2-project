@@ -26,7 +26,7 @@ ReactDOM.render(
         <Route path="/artist" element={<Artist />} />
         <Route path="/subscription" element={<Subscription />} />
         {/* Add more routes here */}
-        <Route path="/group-2-project" element={<Link to="/" />} />
+        <Route path="/group-2-project" element={<Landing />} />
       </Routes>
     </Router>
   </React.StrictMode>,

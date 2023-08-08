@@ -48,7 +48,7 @@ function Landing() {
                         </div>
                         <div className="about-card-desc">
                             <h2>Listen and Discover Music</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                            <p>Listen to your favorite music and discover new music.</p>
                         </div>
                     </li>
                     <li className="about-card">
@@ -66,7 +66,7 @@ function Landing() {
                         </div>
                         <div className="about-card-desc">
                             <h2>Support your Favorite Artist</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                            <p>You can support your favorite artists and get access to exclusive benefits. </p>
                         </div>
                     </li>
                     <li className="about-card">
@@ -84,7 +84,7 @@ function Landing() {
                         </div>
                         <div className="about-card-desc">
                             <h2>Connect with Others</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                            <p>Chat with others through user-created Channels, or through exclusive artist Channels. </p>
                         </div>
                     </li>
                 </ul>
@@ -99,32 +99,32 @@ function Landing() {
                     <h1 id="about-section-title">Engage in the Sound Experience.</h1>
                     <div className="underline"></div>
                 </div>
-
+ 
                 {/* Cards */}
                 <div>
                     <div className="card-sexp">
                         <div className="card">
                             <div className="card-content">
                                 <h2>Explore and Discover Artists and Podcasts</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <p>Immerse yourself in the world of music. Explore a vast collection of songs from talented artists. </p>
                             </div>
-                            <img src="https://placehold.co/600x400" alt="" />
+                            <img src="https://images.unsplash.com/photo-1605722243979-fe0be8158232?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="" />
                         </div>
 
                         <div className="card">
                             <div className="card-content">
                                 <h2>Listen to Your Favorite Artists</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <p>Listen to songs by your favorite artists and experience their amazing work. </p>
                             </div>
-                            <img src="https://placehold.co/600x400" alt="" />
+                            <img src="https://images.unsplash.com/photo-1610041321327-b794c052db27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="headphones" />
                         </div>
 
                         <div className="card">
                             <div className="card-content">
                                 <h2>Create Playlists for Your Everyday Listen</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <p>Tailor your listening experience by curating playlists that reflect your everyday mood, activity, and style. </p>
                             </div>
-                            <img src="https://placehold.co/600x400" alt="" />
+                            <img src="https://images.unsplash.com/photo-1619983081563-430f63602796?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="records" />
                         </div>
                     </div>
                 </div>
@@ -145,20 +145,30 @@ function Landing() {
                     </svg>
                     <div className="support-cards-desc">
                         <h2>Subscribe to Your Favorite Artists</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <p>Make a difference through your subscription. Select from a range of plans to directly support your favorite artists. </p>
                     </div>
                 </div>
 
                 <div className="support-cards">
-                    <div className="circles">
-
-                    </div>
                     <div className="support-cards-desc">
-                        <h2>Subscribe to Your Favorite Artists</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <h2>Get Access to Benefits and Exclusive Channels</h2>
+                        <p>Gain access to special benefits and private Channels reserved for supporters. </p>
                     </div>
+                    <svg width="248" height="282" viewBox="0 0 248 282" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.49997 153.99C-2.50003 148.217 -2.5 133.783 7.5 128.01L225 2.43591C235 -3.33759 247.5 3.8793 247.5 15.4263V266.574C247.5 278.121 235 285.338 225 279.564L7.49997 153.99Z" fill="#00B4D8"/>
+                    </svg>
+
                 </div>
 
+                <div className="support-cards">
+                    <svg width="248" height="282" viewBox="0 0 248 282" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M240.5 128.01C250.5 133.783 250.5 148.217 240.5 153.99L23 279.564C13 285.338 0.5 278.121 0.5 266.574V15.4263C0.5 3.87928 13 -3.33756 23 2.43594L240.5 128.01Z" fill="#00B4D8"/>
+                    </svg>
+                    <div className="support-cards-desc">
+                        <h2>Shop for Merchandise from Artists</h2>
+                        <p>From apparel to CDs, shop through a range of Artists' Merchandise. </p>
+                    </div>
+                </div>
 
             </div>
 
