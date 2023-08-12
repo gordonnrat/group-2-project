@@ -35,61 +35,83 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link to="/subscription">
-              <i className="fas fa-newspaper"></i> Subscription
-            </Link>
+              <Link to="/subscription">
+                <i className="fas fa-newspaper"></i> Subscription
+              </Link>      
           </li>
         </ul>
         <div className="right-nav">
-          <input type="text" placeholder="Search" />
+          <div className="search-button">
+            <Link to="/search">
+              <i className="fas fa-magnifying-glass"></i> Search
+            </Link>
+          </div>
           <div className="user-section">
-            {/* Your user-related elements can go here */}
-            <span>User</span>
+            <span>Username</span>
           </div>
         </div>
       </nav>
 
       {/* Sidebar */}
       <aside className="sidebar">
-        {/* Your sidebar content can go here */}
-        <h1 className="top-heading">
-          <i className="fas fa-music"></i> Your Library
-        </h1>
+        <div className="top-heading">
+          <div className="library-header">
+            <i className="fas fa-play library-title-icon"></i> 
+            <p>Your Library</p>
+          </div>
+          <i className="fa-solid fa-plus playlist-add"></i>
+        </div>
         <ul>
           <li>
-            <Link to="/favorites">
-              <i className="far fa-heart"></i> Favorites
+            <Link to="/playlist/favorites">
+              <div className="library-list library-playlist">
+                <div className="library-playlist-img-container-fav">
+                  <img src={require("./images/Favorite_fill.png")} alt="" className="library-playlist-img-fav" />
+                </div>
+                <div className="library-list-info">
+                  <p className="library-list-name">Favorites</p>
+                  <p className="library-list-type">Playlist</p>
+                </div>
+              </div>
             </Link>
           </li>
-          
           <li>
-            <Link to="/songs to cry to alone">
-              <i className="fas fa-square"></i> songs to cry to alone
-              
+            <Link to="/playlist/songs-to-cry-to-alone">
+              <div className="library-list library-playlist">
+                <div className="library-img-container">
+                  <img src="https://images.unsplash.com/photo-1453227588063-bb302b62f50b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="" className="library-img library-playlist-img" />
+                </div>
+                <div className="library-list-info">
+                  <p className="library-list-name">songs to cry to alone</p>
+                  <p className="library-list-type">Playlist</p>
+                </div>
+              </div>
             </Link>
           </li>
-
           <li>
-          <Link to="/artist name">
-              <i className="fas fa-circle"></i> Artist Name
+            <Link to="/artist">
+              <div className="library-list library-artist">
+                <div className="library-img-container">
+                  <img src="https://cdn8.picryl.com/photo/2016/05/14/vivaldi-antonio-b60bb4-1024.jpg" alt="" className="library-img library-artist-img" />
+                </div>
+                <div className="library-list-info">
+                  <p className="library-list-name">Antonio Vivaldi</p>
+                  <p className="library-list-type">Artist</p>
+                </div>
+              </div>
             </Link>
           </li>
-
           <li>
-            <Link to="/artist name">
-              <i className="fas fa-circle"></i> Artist Name
-            </Link>
-          </li>
-            
-          <li>
-            <Link to="/playlist">
-              <i className="fas fa-square"></i> Playlist #2
-            </Link>
-          </li>
-
-          <li>
-            <Link to="/album name">
-              <i className="fas fa-square"></i> Album Name
+            <Link to="/album/the-four-seasons">
+              <div className="library-list library-playlist">
+                <div className="library-img-container">
+                  <img src="https://images.unsplash.com/photo-1465847899084-d164df4dedc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="" className="library-img library-playlist-img" />
+                </div>
+                <div className="library-list-info">
+                  <p className="library-list-name">The Four Seasons</p>
+                  <p className="library-list-type">Album | Antonio Vivaldi</p>
+                </div>
+              </div>
             </Link>
           </li>
         
