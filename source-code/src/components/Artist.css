@@ -55,7 +55,7 @@
     margin: 15px;
 }
 
-button.subscribe-button {
+.subscribe-button {
     color: white;
     background-color: #00B4D8;
     font-size: 16px;
@@ -73,29 +73,46 @@ button.subscribe-button {
 
 .subscribe-button:hover{
     cursor: pointer;
-    opacity: .8;
+    opacity: .7;
 }
 
 /* Popular Songs List */
 
 .popular-songs {
-    width: 50%;
+    width: 30%;
     margin-left: 2vw;
     margin-bottom: 50px ;
 }
 
 .popular-song {
-    margin: 15px 15px;
+    padding: 10px 15px;
+}
+
+.popular-song:hover {
+    background: rgb(255, 255, 255,0.05);
 }
 
 .popular-song {
     display: grid;
-    grid-template-columns: 50px 1fr 100px 1fr;
+    grid-template-columns: 50px 1fr 100px 40px;
+    cursor: pointer;
 }
 
 .popular-song-img {
     width: 40px;
     height: 40px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.pop-song-title{
+    vertical-align: middle;
+    line-height: 2.5;
+}
+
+.popular-song-timestamp {
+    vertical-align: middle;
+    line-height: 2.5;
 }
 
 /* Discography */
@@ -111,12 +128,22 @@ button.subscribe-button {
 }
 
 .discography-album {
-    margin: 50px;
+    margin: 25px 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.discography-album:hover {
+    /* box-shadow: 0px 10px 50px 5px #28283d; */
+    background: rgb(255, 255, 255,0.05);
+    cursor: pointer;
 }
 
 .discography-img {
     width: 140px;
     height: 140px;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
 .discography-album p {
@@ -140,10 +167,11 @@ button.subscribe-button {
     width: 20vw;
     height: 50vh;
     text-align: center;
-    padding: 25px 50px;
     margin: 50px;
     font-weight: 500;
     border-radius: 5px;
+    box-shadow: 0px 10px 50px 5px #28283d;
+    padding: 30px 45px;
 }
 
 .subscription-cards-container p{
@@ -166,7 +194,7 @@ button.subscribe-button {
 
 .join-button:hover {
     cursor: pointer;
-    opacity: .9;
+    opacity: .7;
 }
 
 .subscription-list {
@@ -175,5 +203,82 @@ button.subscribe-button {
     font-size: 16px;
 }
 
+.your-subscription-container {
+    text-align: left;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
 
+.your-subscription-container p {
+    margin-left: 0;
+}
 
+.cancel-button {
+    color: white;
+    background-color: #00B4D8;
+    font-size: 16px;
+    padding: 12px 40px;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    margin: 0;
+    width: 50%;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.your-sub-button {
+    color: #00B4D8;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 12px 10px;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    margin: 0;
+    width: 45%;
+    margin-right: 5%;
+    font-weight: 600;
+}
+
+.your-sub-button:hover {
+    background: rgb(255, 255, 255,0.1);
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+.cancel-button:hover{
+    cursor: pointer;
+    opacity: .7;
+}
+
+.your-sub-img {
+    height: 100%;
+    width: 60%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 60%,rgb(1, 58, 99) 100%),  url(https://images.unsplash.com/photo-1507838153414-b4b713384a76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80) no-repeat;
+    background-size: cover;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.your-sub-content {
+    padding: 35px 45px 35px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.month-subbed {
+    font-weight: normal;
+}
+
+.line-sub {
+    opacity: .5;
+}

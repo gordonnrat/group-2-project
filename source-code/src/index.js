@@ -15,9 +15,11 @@ import Login from './components/pages/Login';
 import Landing from './components/pages/Landing';
 import Artist from './components/pages/Artist';
 import Subscription from './components/pages/Subscription';
+import NowPlaying from "./components/NowPlaying"
 
 ReactDOM.render(
   <React.StrictMode>
+    <NowPlaying />
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />

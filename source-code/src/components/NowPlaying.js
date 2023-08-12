@@ -98,7 +98,7 @@ function NowPlaying() {
     };
     
     return(
-        <div className="audio-player">
+        <div className="audio-player now-playing-hide">
 
             <div className="controls">
                 <div className="audio-player-info">

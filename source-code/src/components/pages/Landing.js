@@ -1,12 +1,11 @@
 import { Link } from "react-router-dom";
 import "../Landing.css";
-import NowPlaying from "../NowPlaying"
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import { useLocation } from "react-router-dom";
 
 function Landing() {
     return(
         <div className="landing-page">
-            <NowPlaying />
             <nav className="landing-nav">
                 <ul id="nav-logo">
                     <li>
@@ -171,6 +170,13 @@ function Landing() {
                 </div>
 
             </div>
+
+            <style>{`
+            .now-playing-hide{
+              display:none;
+            }
+            `}
+            </style>
 
         </div>
     )
