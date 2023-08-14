@@ -16,6 +16,7 @@ import Landing from './components/pages/Landing';
 import Artist from './components/pages/Artist';
 import Subscription from './components/pages/Subscription';
 import NowPlaying from "./components/NowPlaying"
+import Playlist from "./components/pages/Playlist"
 
 ReactDOM.render(
   <React.StrictMode>
@@ -27,6 +28,7 @@ ReactDOM.render(
         <Route path="/landing" element={<Landing />} />
         <Route path="/artist" element={<Artist />} />
         <Route path="/subscription" element={<Subscription />} />
+        <Route path="/playlist/songs-to-cry-to-alone" element={<Playlist />} />
         <Route path="/*" element={<Home />} />
         {/* Add more routes here */}
         <Route path="/group-2-project" element={<Landing />} />
