@@ -27,6 +27,7 @@ ReactDOM.render(
         <Route path="/landing" element={<Landing />} />
         <Route path="/artist" element={<Artist />} />
         <Route path="/subscription" element={<Subscription />} />
+        <Route path="/*" element={<Home />} />
         {/* Add more routes here */}
         <Route path="/group-2-project" element={<Landing />} />
       </Routes>

@@ -3,14 +3,14 @@
     background: linear-gradient(180deg, rgba(1,42,74,1) 0%, rgba(0,8,15,1) 30%);
     padding-bottom: 100px;
     color: white;
-    width: 82.5vw;
+    width: 83vw;
     margin-left: auto;
     position: relative;
     top: 58px;
 }
 
 .subscription-page-title {
-    padding: 50px 50px;
+    padding: 30px 50px;
 }
 
 .subscription-card {

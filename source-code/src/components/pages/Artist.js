@@ -6,6 +6,14 @@ import { useState, useEffect } from "react";
 
 function Artist() {
 
+    useEffect(() => {
+        document.title = "Antonio Vivaldi"
+    }, []);
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    })
+
     const [isSubscribed, setIsSubscribed] = useState(false);
     const [subscription, setSubscription] = useState(
         JSON.parse(localStorage.getItem('subscription'))
