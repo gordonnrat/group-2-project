@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "../Landing.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import { useLocation } from "react-router-dom";
+import React, { useState, useRef, useEffect } from "react";
 
 function Landing() {
     return(
