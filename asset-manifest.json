@@ -1,16 +1,25 @@
 {
   "files": {
-    "main.css": "/group-2-project/static/css/main.073c9b0a.css",
-    "main.js": "/group-2-project/static/js/main.0823b8dc.js",
+    "main.css": "/group-2-project/static/css/main.69298151.css",
+    "main.js": "/group-2-project/static/js/main.df0f60ba.js",
     "static/js/787.8cf44631.chunk.js": "/group-2-project/static/js/787.8cf44631.chunk.js",
-    "static/media/logo.svg": "/group-2-project/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Winter-Vivaldi-PM-Music.mp3": "/group-2-project/static/media/Winter-Vivaldi-PM-Music.73c68b618fa163184a55.mp3",
+    "static/media/Bach-Cello-Suite-No.-1-G-Major.mp3": "/group-2-project/static/media/Bach-Cello-Suite-No.-1-G-Major.fd3bc490894eec59769e.mp3",
+    "static/media/fa-solid-900.ttf": "/group-2-project/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/fa-brands-400.ttf": "/group-2-project/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/group-2-project/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/fa-brands-400.woff2": "/group-2-project/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/fa-regular-400.ttf": "/group-2-project/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/fa-regular-400.woff2": "/group-2-project/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/fa-v4compatibility.ttf": "/group-2-project/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/group-2-project/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/group-2-project/index.html",
-    "main.073c9b0a.css.map": "/group-2-project/static/css/main.073c9b0a.css.map",
-    "main.0823b8dc.js.map": "/group-2-project/static/js/main.0823b8dc.js.map",
+    "main.69298151.css.map": "/group-2-project/static/css/main.69298151.css.map",
+    "main.df0f60ba.js.map": "/group-2-project/static/js/main.df0f60ba.js.map",
     "787.8cf44631.chunk.js.map": "/group-2-project/static/js/787.8cf44631.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.0823b8dc.js"
+    "static/css/main.69298151.css",
+    "static/js/main.df0f60ba.js"
   ]
 }
