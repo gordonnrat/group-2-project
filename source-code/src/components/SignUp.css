@@ -1,7 +1,12 @@
-body { 
+/* body { 
     background-color: #344a72; 
     font-family: "Roboto", sans-serif; 
-    } 
+    }  */
+.signup-page {
+    background-color: #144870;
+    height: 100vh;
+}
+
     .signup-box { 
     width: 360px; 
     height: 620px; 
@@ -16,37 +21,42 @@ body {
     border-radius: 3px; 
     background-color: white; 
     } 
-    h1 { 
+    .signup-page h1 { 
     text-align: center; 
     padding-top: 15px; 
     } 
-    h4 { 
+
+.signup-page h2 {
+    color: white;
+}
+
+    .signup-page h4 { 
     text-align: center; 
     } 
-    form { 
+    .signup-page form { 
     width: 300px; 
     margin-left: 20px; 
     }
-    form label { 
+    .signup-page form label { 
     display: flex; 
     margin-top: 20px; 
     font-size: 18px; 
     } 
-    form input { 
+    .signup-page form input { 
     width: 100%; 
     padding: 7px; 
     border: none; 
     border: 1px solid gray; border-radius: 6px; 
     outline: none; 
     } 
-    input[type="button"] { width: 320px; 
+    .signup-page input[type="button"] { width: 320px; 
     height: 35px; 
     margin-top: 20px; 
     border: none; 
     background-color: #49c1a2; color: white; 
     font-size: 18px; 
     } 
-    p { 
+    .signup-page p { 
     text-align: center; 
     padding-top: 20px; 
     font-size: 15px; 
