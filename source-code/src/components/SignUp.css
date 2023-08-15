@@ -1,73 +1,55 @@
-/* body { 
-    background-color: #344a72; 
-    font-family: "Roboto", sans-serif; 
-    }  */
 .signup-page {
-    background-color: #144870;
+    background-color: #08304F;
     height: 100vh;
+    width: 100vw;
 }
 
-    .signup-box { 
-    width: 360px; 
-    height: 620px; 
-    margin: auto; 
-    background-color: white; 
-    border-radius: 3px; 
-    } 
-    .login-box { 
-    width: 360px; 
-    height: 280px; 
-    margin: auto; 
-    border-radius: 3px; 
-    background-color: white; 
-    } 
-    .signup-page h1 { 
-    text-align: center; 
-    padding-top: 15px; 
-    } 
+.signup-container {
+    padding-top: 15vh;
+}
+
+.signup-box { 
+    width: 30vw; 
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background: black;
+    padding: 100px 100px;
+} 
 
 .signup-page h2 {
     color: white;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 40px;
 }
 
-    .signup-page h4 { 
-    text-align: center; 
-    } 
-    .signup-page form { 
-    width: 300px; 
-    margin-left: 20px; 
-    }
-    .signup-page form label { 
-    display: flex; 
-    margin-top: 20px; 
-    font-size: 18px; 
-    } 
-    .signup-page form input { 
-    width: 100%; 
-    padding: 7px; 
+.signup-page input { 
+    width: 50%; 
+    padding: 10px; 
     border: none; 
-    border: 1px solid gray; border-radius: 6px; 
+    border: .1px solid white;
     outline: none; 
-    } 
-    .signup-page input[type="button"] { width: 320px; 
-    height: 35px; 
-    margin-top: 20px; 
-    border: none; 
-    background-color: #49c1a2; color: white; 
-    font-size: 18px; 
-    } 
-    .signup-page p { 
-    text-align: center; 
-    padding-top: 20px; 
-    font-size: 15px; 
-    } 
-    .para-2 { 
-    text-align: center; 
-    color: white; 
-    font-size: 15px; 
-    margin-top: -10px; 
-    } 
-    .para-2 a { 
-    color: #49c1a2; 
-    } 
-    
+    margin: auto;
+    margin-bottom: 15px;
+    background-color: #012A4A;
+    color: white;
+} 
+
+.signup-button {
+    width: 50%;
+    margin: auto;
+    margin-top: 45px;
+}
+
+.signup-box hr {
+    margin-bottom: 55px;
+}
+
+.signup-box p {
+    color:white;
+    width: 53%; 
+    margin: auto;
+    margin-bottom: 10px;
+}

@@ -17,6 +17,7 @@ import Artist from './components/pages/Artist';
 import Subscription from './components/pages/Subscription';
 import NowPlaying from "./components/NowPlaying";
 import Playlist from "./components/pages/Playlist";
+import Album from "./components/pages/Album";
 import SignUp from './components/pages/SignUp'; 
 
 ReactDOM.render(
@@ -30,6 +31,7 @@ ReactDOM.render(
         <Route path="/artist" element={<Artist />} />
         <Route path="/subscription" element={<Subscription />} />
         <Route path="/playlist/songs-to-cry-to-alone" element={<Playlist />} />
+        <Route path="/album/the-four-seasons" element={<Album />} />
         <Route path="/*" element={<Home />} />
         <Route path="/SignUp" element={<SignUp />} /> 
         {/* Add more routes here */}

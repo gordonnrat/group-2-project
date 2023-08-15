@@ -78,126 +78,162 @@ function Home() {
         <div className="home-shelf home-playlist-for-you">
           <h2>Playlist For You</h2>
           <div className="home-shelf-cards">
-            <div className="home-shelf-card">
-              <div className="home-shelf-card-img">
-                <img src="" alt="" />
-              </div>
-              <p>Playlist Name</p>
-            </div>
-            <div className="home-shelf-card">
-              <div className="home-shelf-card-img">
-                <img src="" alt="" />
-              </div>
-              <p>Playlist Name</p>
-            </div>
-            <div className="home-shelf-card">
-              <div className="home-shelf-card-img">
-                <img src="" alt="" />
-              </div>
-              <p>Playlist Name</p>
-            </div>
-            <div className="home-shelf-card">
-              <div className="home-shelf-card-img">
-                <img src="" alt="" />
-              </div>
-              <p>Playlist Name</p>
-            </div>
-            <div className="home-shelf-card">
-              <div className="home-shelf-card-img">
-                <img src="" alt="" />
-              </div>
-              <p>Playlist Name</p>
-            </div>
-            <div className="home-shelf-card">
-              <div className="home-shelf-card-img">
-                <img src="" alt="" />
-              </div>
-              <p>Playlist Name</p>
-            </div>
+              <Link to="/playlist/songs-to-cry-to-alone">
+                <div className="home-shelf-card">
+                  <div className="home-shelf-card-img">
+                    <img src="https://plus.unsplash.com/premium_photo-1691852519415-0df4c22e49e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="" />
+                  </div>
+                  <p>Daily Mix 1</p>
+                </div>
+              </Link>
+              <Link to="/playlist/songs-to-cry-to-alone">
+                <div className="home-shelf-card">
+                  <div className="home-shelf-card-img">
+                    <img src="https://images.unsplash.com/photo-1691446904763-2cc5ab59b7c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=717&q=80" alt="" />
+                  </div>
+                  <p>Daily Mix 2</p>
+                </div>
+              </Link>
+              <Link to="/playlist/songs-to-cry-to-alone">
+                <div className="home-shelf-card">
+                  <div className="home-shelf-card-img">
+                    <img src="https://plus.unsplash.com/premium_photo-1691438973177-cc200c2f7041?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="" />
+                  </div>
+                  <p>Daily Mix 3</p>
+                </div>
+              </Link>
+              <Link to="/playlist/songs-to-cry-to-alone">
+                <div className="home-shelf-card">
+                  <div className="home-shelf-card-img">
+                    <img src="https://images.unsplash.com/photo-1692015830187-4b754c2257fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=674&q=80" alt="" />
+                  </div>
+                  <p>Daily Mix 4</p>
+                </div>
+              </Link>
+              <Link to="/playlist/songs-to-cry-to-alone">
+                <div className="home-shelf-card">
+                  <div className="home-shelf-card-img">
+                    <img src="https://images.unsplash.com/photo-1453227588063-bb302b62f50b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="" />
+                  </div>
+                  <p>songs to cry to alone</p>
+                </div>
+              </Link>
+              <Link to="/playlist/songs-to-cry-to-alone">
+                <div className="home-shelf-card">
+                  <div className="home-shelf-card-img">
+                    <img src="https://images.unsplash.com/photo-1465847899084-d164df4dedc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="" />
+                  </div>
+                  <p>Classical Music</p>
+                </div>
+              </Link>
           </div>
         </div>
 
         <div className="home-shelf home-artist-showcase">
           <h2>Artist Showcase</h2>
           <div className="home-shelf-cards">
-            <div className="home-shelf-card">
-              <div className="home-shelf-card-img home-shelf-img-artist">
-                <img src="" alt="" />
+            <Link to={"/artist"} style={{ textDecoration: 'none' }}>
+              <div className="home-shelf-card">
+                <div className="home-shelf-card-img home-shelf-img-artist">
+                  <img src="https://cdn2.picryl.com/thumbnail/1725/12/31/antonio-vivaldi-e192cf-200.jpg" alt="antonio vivaldi" />
+                </div>
+                <p>Antonio Vivaldi</p>
               </div>
-              <p>Artist Name</p>
-            </div>
-            <div className="home-shelf-card">
-              <div className="home-shelf-card-img home-shelf-img-artist">
-                <img src="" alt="" />
+            </Link>
+            <Link to="/artist">
+              <div className="home-shelf-card">
+                <div className="home-shelf-card-img home-shelf-img-artist">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Bach_unedited.jpg" alt="" />
+                </div>
+                <p>Johann S. Bach</p>
               </div>
-              <p>Artist Name</p>
-            </div>
-            <div className="home-shelf-card">
-              <div className="home-shelf-card-img home-shelf-img-artist">
-                <img src="" alt="" />
+            </Link>
+            <Link to="/artist">
+              <div className="home-shelf-card">
+                <div className="home-shelf-card-img home-shelf-img-artist">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Mozartportrait.jpg" alt="" />
+                </div>
+                <p>Wolfgang A. Mozart</p>
               </div>
-              <p>Artist Name</p>
-            </div>
-            <div className="home-shelf-card">
-              <div className="home-shelf-card-img home-shelf-img-artist">
-                <img src="" alt="" />
+            </Link>
+            <Link to="/artist">
+              <div className="home-shelf-card">
+                <div className="home-shelf-card-img home-shelf-img-artist">
+                  <img src="https://cdn2.picryl.com/thumbnail/1850/12/31/ary-scheffer-portrait-of-frederic-chopin-wga20976-89c825-200.jpg" alt="" />
+                </div>
+                <p>Frédéric Chopin</p>
               </div>
-              <p>Artist Name</p>
-            </div>
-            <div className="home-shelf-card">
-              <div className="home-shelf-card-img home-shelf-img-artist">
-                <img src="" alt="" />
+            </Link>
+            <Link to="/artist">
+              <div className="home-shelf-card">
+                <div className="home-shelf-card-img home-shelf-img-artist">
+                  <img src="https://upload.wikimedia.org/wikipedia/en/b/b4/Claude_Debussy_atelier_Nadar.jpg" alt="" />
+                </div>
+                <p>Claude Debussy</p>
               </div>
-              <p>Artist Name</p>
-            </div>
-            <div className="home-shelf-card">
-              <div className="home-shelf-card-img home-shelf-img-artist">
-                <img src="" alt="" />
+            </Link>
+            <Link to="/artist">
+              <div className="home-shelf-card">
+                <div className="home-shelf-card-img home-shelf-img-artist">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Johannes_Brahms_%28before_1897%29_-_Archivio_storico_Ricordi_FOTO001204.jpg" alt="" />
+                </div>
+                <p>Johannes Brahms</p>
               </div>
-              <p>Artist Name</p>
-            </div>
+            </Link>
           </div>
         </div>
 
         <div className="home-shelf home-playlist-for-you">
           <h2>Popular Albums</h2>
           <div className="home-shelf-cards">
-            <div className="home-shelf-card">
-              <div className="home-shelf-card-img">
-                <img src="" alt="" />
-              </div>
-              <p>Album Name</p>
-            </div>
-            <div className="home-shelf-card">
-              <div className="home-shelf-card-img">
-                <img src="" alt="" />
-              </div>
-              <p>Album Name</p>
-            </div>
-            <div className="home-shelf-card">
-              <div className="home-shelf-card-img">
-                <img src="" alt="" />
-              </div>
-              <p>Album Name</p>
-            </div>
-            <div className="home-shelf-card">
-              <div className="home-shelf-card-img">
-                <img src="" alt="" />
-              </div>
-              <p>Album Name</p>
-            </div>
-            <div className="home-shelf-card">
-              <div className="home-shelf-card-img">
-                <img src="" alt="" />
-              </div>
-              <p>Album Name</p>
-            </div>
-            <div className="home-shelf-card">
-              <div className="home-shelf-card-img">
-                <img src="" alt="" />
-              </div>
-              <p>Album Name</p>
-            </div>
+              <Link to="/album/the-four-seasons">
+                <div className="home-shelf-card">
+                  <div className="home-shelf-card-img">
+                    <img src="https://images.unsplash.com/photo-1465847899084-d164df4dedc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="" />
+                  </div>
+                  <p>The Four Seasons</p>
+                </div>
+              </Link>
+              <Link to="/album/the-four-seasons">
+                <div className="home-shelf-card">
+                  <div className="home-shelf-card-img">
+                    <img src="https://images.unsplash.com/photo-1508025690966-2a9a1957da31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80" alt="" />
+                  </div>
+                  <p>Gloria</p>
+                </div>
+              </Link>
+              <Link to="/album/the-four-seasons">
+                <div className="home-shelf-card">
+                  <div className="home-shelf-card-img">
+                    <img src="https://images.unsplash.com/photo-1611727153919-e598e5a0baa5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="" />
+                  </div>
+                  <p>Stabat Mater</p>
+                </div>
+              </Link>
+              <Link to="/album/the-four-seasons">
+                <div className="home-shelf-card">
+                  <div className="home-shelf-card-img">
+                    <img src="https://images.unsplash.com/photo-1532089006065-de61ca171e56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="" />
+                  </div>
+                  <p>Magnificat</p>
+                </div>
+              </Link>
+              <Link to="/album/the-four-seasons">
+                <div className="home-shelf-card">
+                  <div className="home-shelf-card-img">
+                    <img src="https://images.unsplash.com/photo-1532342342267-77e8db262ebc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="" />
+                  </div>
+                  <p>Nisi dominus</p>
+                </div>
+              </Link>
+              <Link to="/album/the-four-seasons">
+                <div className="home-shelf-card">
+                  <div className="home-shelf-card-img">
+                    <img src="https://images.unsplash.com/photo-1603584915335-d612257071b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="" />
+                  </div>
+                  <p>Cello Suites</p>
+                </div>
+              </Link>
           </div>
         </div>
 

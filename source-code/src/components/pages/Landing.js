@@ -16,14 +16,20 @@ function Landing() {
                     <li><span className="blue">sound</span>ex</li>
                 </ul>
                 <ul id="nav-right">
-                    <li><button type="button" className="login-button">Login</button></li>
-                    <li><button type="button " className="get-started button-hover">Get Started</button></li>
+                    <Link to={"/login"}>
+                        <li><button type="button" className="login-button">Login</button></li>
+                    </Link>
+                    <Link to={"/signup"}>
+                        <li><button type="button " className="get-started button-hover">Get Started</button></li>
+                    </Link>
                 </ul>
             </nav>
             <div>
                 <div className="hero-title">
                     <h1>Empower <span className="blue">Sound</span> with Your <span className="blue">Support</span></h1>
-                    <button type="button" className="get-started button-hover">Get Started</button>
+                    <Link to={"/signup"}>
+                        <button type="button " className="get-started button-hover">Get Started</button>
+                    </Link>
                 </div>
                 <img src="https://images.unsplash.com/photo-1453090927415-5f45085b65c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1448&q=80" alt="microphone" className="hero-img" />
             </div>

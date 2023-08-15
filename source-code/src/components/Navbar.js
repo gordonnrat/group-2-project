@@ -4,6 +4,9 @@ import "./Navbar.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 function Navbar() {
+
+  const userSignUpInfo = JSON.parse(localStorage.getItem('userSignUpInfo'));
+
   return (
     <div>
       {/* Main Navbar */}
@@ -47,7 +50,7 @@ function Navbar() {
             </Link>
           </div>
           <div className="user-section">
-            <span>Username</span>
+            <span>{userSignUpInfo.username}</span>
           </div>
         </div>
       </nav>
@@ -63,7 +66,7 @@ function Navbar() {
         </div>
         <ul>
           <li>
-            <Link to="/playlist/favorites">
+            <Link to="/playlist/songs-to-cry-to-alone">
               <div className="library-list library-playlist">
                 <div className="library-playlist-img-container-fav">
                   <img src={require("./images/Favorite_fill.png")} alt="" className="library-playlist-img-fav" />
