@@ -1,0 +1,284 @@
+.artist-section {
+    background: rgb(1,42,74);
+    background: linear-gradient(180deg, rgba(1,42,74,1) 0%, rgba(0,8,15,1) 30%);
+    padding-bottom: 100px;
+    color: white;
+    width: 83vw;
+    margin-left: auto;
+    position: relative;
+    top: 58px;
+}
+
+.artist-header {
+    position: relative;
+    margin-bottom: 75px;
+}
+
+.artist-header-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.artist-profile-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 110px;
+}
+
+.artist-header-profile {
+    height: 270px;
+    display: flex;
+    justify-content: center;
+}
+
+.artist-header h1 {
+    text-align: center;
+}
+
+.artist-info-container {
+    position: relative;
+}
+
+.artist-stats-details {
+    display: flex;
+    justify-content: center;
+}
+
+.artist-stats-details p {
+    margin: 15px;
+}
+
+.subscribe-button {
+    color: white;
+    background-color: #00B4D8;
+    font-size: 16px;
+    padding: 12px 75px;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    margin: 0;
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.subscribe-button:hover{
+    cursor: pointer;
+    opacity: .7;
+}
+
+/* Popular Songs List */
+
+.popular-songs {
+    width: 30%;
+    margin-left: 2vw;
+    margin-bottom: 50px ;
+}
+
+.popular-song {
+    padding: 10px 15px;
+}
+
+.popular-song:hover {
+    background: rgb(255, 255, 255,0.05);
+}
+
+.popular-song {
+    display: grid;
+    grid-template-columns: 50px 1fr 100px 40px;
+    cursor: pointer;
+}
+
+.popular-song-img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.pop-song-title{
+    vertical-align: middle;
+    line-height: 2.5;
+}
+
+.popular-song-timestamp {
+    vertical-align: middle;
+    line-height: 2.5;
+}
+
+/* Discography */
+
+.discography {
+    margin-left: 2vw;
+}
+
+.discography-albums {
+    display: flex;
+    justify-content: center;
+    overflow-x : auto;
+}
+
+.discography-album {
+    margin: 25px 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.discography-album:hover {
+    /* box-shadow: 0px 10px 50px 5px #28283d; */
+    background: rgb(255, 255, 255,0.05);
+    cursor: pointer;
+}
+
+.discography-img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.discography-album p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Subscription Plan */
+
+.subscription-plan {
+    margin-left: 2vw;
+}
+
+.subscription-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.subscription-cards-container {
+    background-color: #013A63;
+    width: 20vw;
+    height: 50vh;
+    text-align: center;
+    margin: 50px;
+    font-weight: 500;
+    border-radius: 5px;
+    box-shadow: 0px 10px 50px 5px #28283d;
+    padding: 30px 45px;
+}
+
+.subscription-cards-container p{
+    margin: 15px;
+    font-size: 18px;
+}
+
+.join-button{
+    color: white;
+    background-color: #00B4D8;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    width: 90%;
+    margin: 15px;
+    font-weight: 700;
+}
+
+.join-button:hover {
+    cursor: pointer;
+    opacity: .7;
+}
+
+.subscription-list {
+    text-align: left;
+    margin: 15px;
+    font-size: 16px;
+}
+
+.your-subscription-container {
+    text-align: left;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.your-subscription-container p {
+    margin-left: 0;
+}
+
+.cancel-button {
+    color: white;
+    background-color: #00B4D8;
+    font-size: 16px;
+    padding: 12px 40px;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    margin: 0;
+    width: 50%;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.your-sub-button {
+    color: #00B4D8;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 12px 10px;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    margin: 0;
+    width: 45%;
+    margin-right: 5%;
+    font-weight: 600;
+}
+
+.your-sub-button:hover {
+    background: rgb(255, 255, 255,0.1);
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+.cancel-button:hover{
+    cursor: pointer;
+    opacity: .7;
+}
+
+.your-sub-img {
+    height: 100%;
+    width: 60%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 60%,rgb(1, 58, 99) 100%),  url(https://images.unsplash.com/photo-1507838153414-b4b713384a76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80) no-repeat;
+    background-size: cover;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.your-sub-content {
+    padding: 35px 45px 35px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.month-subbed {
+    font-weight: normal;
+}
+
+.line-sub {
+    opacity: .5;
+}

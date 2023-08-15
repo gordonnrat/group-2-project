@@ -309,25 +309,19 @@ h1#support-header-title {
 
 .support-cards-desc {
     padding: 60px 0;
-    width: 40%;
-    margin-left: 50px;
+    width: 20%;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 .support-cards-desc h2{
     font-size: 22px;
     font-weight: 700;
-    width: 85%;
+    width: 75%;
     margin-bottom: 25px;
 }
 
 .support-cards-desc p{
     font-size: 20px;
     opacity: 0.8;
-}
-
-.circles {
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-    background-color: #00B4D8;
 }

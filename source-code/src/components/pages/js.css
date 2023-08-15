@@ -1,11 +1,22 @@
 /* js.css */
 
+.home-section {
+  background: rgb(1,42,74);
+  background: linear-gradient(180deg, rgba(1,42,74,1) 0%, rgba(0,8,15,1) 30%);
+  padding-bottom: 100px;
+  color: white;
+  width: 83vw;
+  position: relative;
+  top: 58px;
+  margin-left: auto;
+}
+
 .main-container {
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
 }
 
 .squares-container {
@@ -13,7 +24,7 @@
   justify-content: center;
   align-items: flex-start;
   /*max-width: 800px;*/
-  margin: 0 auto;
+  margin: auto;
 }
 
 .square-container {
@@ -37,14 +48,6 @@
   
  
   /*transform: translateX(-50%);*/
-}
-
-.top-heading {
-  position: absolute;
-  top: 45px;
-  left: 0;
-  font-size: 15px;
-  color: aliceblue;
 }
 
 /* Add styles for the circles */
@@ -79,10 +82,222 @@
 
 
 
+.home-header {
+  padding: 30px 50px 10px;
+}
 
+.home-header h1 {
+  font-size: 38px;
+  margin-bottom: 5px;
+}
 
+.home-header h2 {
+  font-size: 24px;
+}
 
+/* home top content */
 
+.home-top-content {
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+}
 
+.home-top-content h2{
+  font-size: 22px;
+}
 
+.home-spotlight-cards {
+  padding: 0 15px;
+  display: flex;
+  margin-top: 20px;
+}
 
+.home-spotlight-card{
+  height: 300px;
+  width: 200px;
+  margin-right: 25px;
+  border-radius: 5px;
+  padding: 10px 15px 10px;
+  background: linear-gradient(180deg, rgba(0,180,216,1) 0%, rgba(228,204,255,1) 100%);
+}
+
+.home-spotlight-card:hover {
+  filter: brightness(90%);
+  cursor: pointer;
+}
+
+/* artist spotlight */
+
+.home-artist-spotlight {
+  position: relative;
+  margin-right: 5vw;
+  margin-left: 5vw;
+}
+
+.artist-spotlight-content {
+  padding: 10px 60px 10px;
+  margin-top: 10px;
+}
+
+.artist-spotlight-card {
+  background: #48CAE4;
+  height: 318px;
+  width: 320px;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.artist-spotlight-img {
+  position: relative;
+  height: 268px;
+}
+
+.artist-spotlight-img img {
+  width: 320px;
+  height: 268px;
+  object-fit: cover;
+  filter: brightness(50%);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.artist-spotlight-img:hover {
+  filter: brightness(80%);
+}
+
+.artist-spotlight-img-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  padding-bottom: 0;
+  color: white;
+}
+
+.artist-spotlight-song {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.artist-spotlight-song {
+  padding: 5px 15px;
+  position: relative;
+  background: black;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.artist-spotlight-song-info {
+  display: flex;
+}
+
+.artist-spotlight-song-title {
+  margin-left: 15px;
+}
+
+/* bg shape */
+
+.ass-left-polygon, .ass-right-polygon {
+  position: absolute;
+}
+
+.ass-left-polygon {
+  left: -20px;
+  bottom: -70px;
+}
+
+.ass-right-polygon {
+  right: -20px;
+  top: -30px;
+}
+
+/* home shelf */
+
+.home-shelf {
+  padding: 20px 50px;
+}
+
+.home-shelf h2{
+  font-size: 22px;
+}
+
+.home-shelf-cards {
+  padding: 10px 15px 10px;
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+
+.home-shelf-card {
+  text-align: center;
+  padding: 25px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.home-shelf-card p {
+  margin-top: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.home-shelf-card:hover {
+  background: rgb(255, 255, 255,0.1);
+  cursor: pointer;
+}
+
+.home-shelf-card-img {
+  height: 140px;
+  width: 140px;
+
+  border-radius: 5px;
+}
+
+.home-shelf-card-img img{
+  height: 140px;
+  width: 140px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.home-shelf-img-artist {
+  border-radius: 50%;
+}
+
+.home-shelf-img-artist img{
+  border-radius: 50%;
+}
+
+.home-browse-categories {
+  padding: 20px 50px;
+}
+
+.home-browse-categories h2{
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.home-categories-container {
+  padding: 10px 15px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.home-categories {
+  border-radius: 5px;
+  background: linear-gradient(180deg, rgba(0,180,216,1) 0%, rgba(228,204,255,0.8) 100%);
+  height: 150px;
+  width: 320px;
+}
+
+.home-categories h3 {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.home-categories:hover {
+  filter: brightness(90%);
+  cursor: pointer;
+}

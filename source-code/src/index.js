@@ -13,16 +13,29 @@ import {
 import Home from './components/pages/Home';
 import Login from './components/pages/Login';
 import Landing from './components/pages/Landing';
+import Artist from './components/pages/Artist';
+import Subscription from './components/pages/Subscription';
+import NowPlaying from "./components/NowPlaying";
+import Playlist from "./components/pages/Playlist";
+import Album from "./components/pages/Album";
+import SignUp from './components/pages/SignUp'; 
 
 ReactDOM.render(
   <React.StrictMode>
+    <NowPlaying />
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/landing" element={<Landing />} />
+        <Route path="/artist" element={<Artist />} />
+        <Route path="/subscription" element={<Subscription />} />
+        <Route path="/playlist/songs-to-cry-to-alone" element={<Playlist />} />
+        <Route path="/album/the-four-seasons" element={<Album />} />
+        <Route path="/*" element={<Home />} />
+        <Route path="/SignUp" element={<SignUp />} /> 
         {/* Add more routes here */}
-        <Route path="/group-2-project" element={<Link to="/" />} />
+        <Route path="/group-2-project" element={<Landing />} />
       </Routes>
     </Router>
   </React.StrictMode>,
